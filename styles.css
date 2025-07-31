@@ -1,87 +1,83 @@
+/* General Reset and Base Styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333333;
-    max-width: 800px;
-    background-color: #f0f0f0;
-    margin: 0 auto;
-    padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
 }
 
-header {
-    background-color: #333333;
-    color: white;
-    padding: 16px;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 10px 10px 0 0;
-    text-align: center;
+/* Container layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-section {
-    background-color: white;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    padding: 16px;
-    border-radius: 10px;
+/* Header */
+.header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-h2 {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: left;
-    border-bottom: 2px solid #dddddd;
-    margin-top: 0;
-    padding-bottom: 8px;
+/* Section Headings and Content */
+.section {
+  margin-bottom: 30px;
 }
 
-.hierarchy div:nth-child(1) {
-    color: red;
-    font-weight: bold;
-    margin-bottom: 4px;
+.section h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  font-size: 1.4em;
 }
 
-.hierarchy div:nth-child(2) {
-    color: #c62828;
-    margin-bottom: 4px;
+.section p,
+.section ul,
+.section pre {
+  line-height: 1.6;
+  font-size: 1em;
 }
 
-.hierarchy div:nth-child(3) {
-    color: #ef6c00;
-    margin-bottom: 4px;
+.section ul {
+  padding-left: 20px;
 }
 
-.hierarchy div:nth-child(4) {
-    color: #1e88e5;
-    margin-bottom: 4px;
+.section li {
+  margin: 6px 0;
 }
 
-ul {
-    padding-left: 20px;
-    list-style-type: disc;
+/* Example block */
+.example {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-left: 4px solid #3498db;
+  font-family: Consolas, monospace;
 }
 
-pre {
-    background-color: #e0f2f1;
-    padding: 12px;
-    border-left: 4px solid #1e88e5;
-    font-family: monospace;
-    white-space: pre-wrap;
-    border-radius: 4px;
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #777;
+  border-top: 1px solid #ccc;
 }
 
-#scroll-button {
-    position: fixed;
-    bottom: 16px;
-    right: 16px;
-    background-color: #1e88e5;
-    color: white;
-    font-size: 24px;
-    border: none;
-    border-radius: 50%;
-    padding-left: 12px;
-    padding-bottom: 4px;
-    font-weight: bold;
-    cursor: pointer;
+/* 🔵 Sticky Blue Arrow */
+.blue-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 999;
 }
-
