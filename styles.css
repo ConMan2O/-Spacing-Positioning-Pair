@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #dddddd;
+    margin-top: 0;
+    padding-bottom: 8px;
+}
+
+.hierarchy div:nth-child(1) {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.hierarchy div:nth-child(2) {
+    color: #c62828;
+    margin-bottom: 4px;
+}
+
+.hierarchy div:nth-child(3) {
+    color: #ef6c00;
+    margin-bottom: 4px;
+}
+
+.hierarchy div:nth-child(4) {
+    color: #1e88e5;
+    margin-bottom: 4px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+pre {
+    background-color: #e0f2f1;
+    padding: 12px;
+    border-left: 4px solid #1e88e5;
+    font-family: monospace;
+    white-space: pre-wrap;
+    border-radius: 4px;
+}
+
+#scroll-button {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background-color: #1e88e5;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    padding-left: 12px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
